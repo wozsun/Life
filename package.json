@@ -1,0 +1,17 @@
+{
+  "name": "life",
+  "version": "2.0.0",
+  "description": "wozsun's life",
+  "license": "MIT",
+  "author": "wozsun",
+  "type": "module",
+  "scripts": {
+    "dev": "vuepress dev src --clean-cache",
+    "build": "vuepress build src"
+  },
+  "devDependencies": {
+    "vuepress": "2.0.0-beta.66",
+    "vuepress-plugin-search-pro": "2.0.0-beta.233",
+    "vuepress-theme-hope": "2.0.0-beta.233"
+  }
+}
