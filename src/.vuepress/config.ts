@@ -15,7 +15,7 @@ export const Sidebar = sidebar({
 
 export default defineUserConfig({
     lang: "zh-CN",
-    title: "wozsun",
+    title: "Life",
     description: "生活记录",
     head: [
         ["meta", { name: "theme-color", content: "#363636" }],
