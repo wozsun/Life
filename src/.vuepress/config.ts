@@ -6,14 +6,21 @@ import { searchProPlugin } from "vuepress-plugin-search-pro";
 
 export const Navbar = navbar([
     { text: "首页", icon: "home-3-line", link: "/" },
+    { text: "生活", icon: "polaroid-line", link: "/daily/" },
+    { text: "旅游", icon: "road-map-line", link: "/travel/" },
     { text: "杂项", icon: "file-copy-2-line", link: "/misc/" },
+    { text: "知识", icon: "book-2-line", link: "https://docs.wozsun.com" },
+    { text: "主站", icon: "gps-line", link: "https://www.wozsun.com" },
 ]);
 
 export const Sidebar = sidebar({
     "/misc/": "structure",
+    "/daily/": "structure",
+    "/travel/": "structure",
 });
 
 export default defineUserConfig({
+    base: "/",
     lang: "zh-CN",
     title: "Life",
     description: "生活记录",
