@@ -14,7 +14,9 @@
         "allowed_elements": [
             "br",
             "AutoCatalog",
-            "Badge"
+            "Badge",
+            "div",
+            "img"
         ]
     },
     "MD035": {
