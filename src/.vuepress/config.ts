@@ -62,7 +62,7 @@ export default defineUserConfig({
         prevLink: true,
         nextLink: true,
         titleIcon: true,
-        pageInfo: ["Original", "Word", "ReadingTime", "Category", "Tag"],
+        pageInfo: ["Original", "Date", "Category", "Tag"],
         lastUpdated: true,
         contributors: false,
         editLink: true,
