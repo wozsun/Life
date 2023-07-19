@@ -23,3 +23,21 @@
     direction: rtl;
     >*>* {direction: ltr;}
 }
+
+.image-preview {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+    grid-gap: 8px;
+    grid-auto-flow: dense;
+}
+
+.image-preview>img {
+    height: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.image-preview>img:hover {
+    transform: scale(1.03);
+}
