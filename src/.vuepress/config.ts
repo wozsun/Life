@@ -136,7 +136,7 @@ export default defineUserConfig({
                 repo: "wozsun/Life",
                 repoId: "R_kgDOJ8D0zQ",
                 category: "General",
-                categoryId: "DIC_kwDOJ2pUrM4CXquq",
+                categoryId: "DIC_kwDOJ8D0zc4CX6u3",
                 mapping: "pathname",
                 strict: true,
                 lazyLoading: true,
