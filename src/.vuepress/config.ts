@@ -76,7 +76,7 @@ export default defineUserConfig({
         toc: true,
         iconAssets: [
             "https://at.alicdn.com/t/c/font_4128793_d0rhm36922l.css",
-            "https://asset.wozsun.com/remixicon/remixicon.css",
+            "https://asset.wozsun.com/remixicon/remixicon.css"
         ],
         iconPrefix: "ri-",
         darkmode: "enable",
@@ -126,9 +126,35 @@ export default defineUserConfig({
                 delay: 800,
             },
             components: {
-                components: [
-                    "Badge",
-                ],
+                components: ["Badge"],
+                componentOptions: {
+                    artPlayer: {
+                        airplay: true,
+                        autoplay: true,
+                        aspectRatio: true,
+                        autoMini: true,
+                        autoSize: true,
+                        autoOrientation: true,
+                        autoPlayback: true,
+                        fastForward: true,
+                        flip: true,
+                        fullscreenWeb: true,
+                        lock: true,
+                        loop: true,
+                        isLive: true,
+                        muted: true,
+                        miniProgressBar: true,
+                        pip: true,
+                        screenshot: true,
+                        subtitleOffset: true,
+                        fullscreen: true,
+                        hotkey: true,
+                        playbackRate: true,
+                        setting: true,
+                        mutex: true,
+                        playsInline: true,
+                    },
+                },
             },
             comment: {
                 provider: "Giscus",
