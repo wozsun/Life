@@ -3,8 +3,8 @@ title: 首页
 home: true
 layout: BlogHome
 icon: home-3-line
-bgImage: https://api.wozsun.com/random-img/pc-light.php
-bgImageDark: https://api.wozsun.com/random-img/pc-dark.php
+bgImage: https://api.wozsun.com/random-img?theme=light
+bgImageDark: https://api.wozsun.com/random-img?theme=dark
 heroFullScreen: true
 heroText: Recording Life
 tagline: Life, half is memory, half is to continue.
@@ -19,4 +19,4 @@ copyright: '<b>CC BY-NC-SA 4.0<br>Copyright © 2022-2023 wozsun</b>'
 #     icon: database-2-fill
 #     details: 数据库知识、MySQL、Redis
 #     link: /database/
----  
+---
