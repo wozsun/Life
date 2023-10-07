@@ -1,8 +1,7 @@
 ---
-title: 首页
 home: true
+title: 首页
 layout: BlogHome
-icon: home-3-line
 bgImage: https://api.wozsun.com/random-img?theme=light
 bgImageDark: https://api.wozsun.com/random-img?theme=dark
 heroFullScreen: true
