@@ -89,7 +89,9 @@ export default defineUserConfig({
         encrypt: {
             global: false,
             admin:[],
-            config: {},
+            config: {
+                "/lrh/": ["20020618"],
+            },
         },
         plugins: {
             git: true,
