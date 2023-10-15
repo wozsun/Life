@@ -193,7 +193,7 @@ export default defineUserConfig({
                 mathjax: false,
                 chart: false,
                 echarts: false,
-                presentation: true,
+                revealJs: true,
                 delay: 800,
                 sup: true,
                 sub: true,
