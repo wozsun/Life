@@ -6,7 +6,7 @@ import { searchProPlugin } from "vuepress-plugin-search-pro";
 
 export const Navbar = navbar([
     { text: "首页", icon: "home-3-line", link: "/" },
-    { text: "生活", icon: "polaroid-line", link: "/daily/" },
+    { text: "日常", icon: "polaroid-line", link: "/daily/" },
     { text: "旅游", icon: "road-map-line", link: "/travel/" },
     { text: "说说", icon: "message-2-line", link: "/space/" },
     { text: "杂项", icon: "file-copy-2-line", link: "/misc/" },
