@@ -135,7 +135,7 @@ export default defineUserConfig({
                 delay: 800,
             },
             components: {
-                components: ["Badge"],
+                components: ["Badge", "AudioPlayer"],
                 componentOptions: {
                     artPlayer: {
                         airplay: true,
