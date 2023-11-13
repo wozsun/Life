@@ -199,7 +199,6 @@ export default defineUserConfig({
                 sub: true,
                 tasklist: true,
                 demo: false,
-                card: true,
                 imgLazyload: true,
                 imgMark: false,
                 imgSize: false,
