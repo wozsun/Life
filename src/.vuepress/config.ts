@@ -8,7 +8,6 @@ export const Navbar = navbar([
     { text: "首页", icon: "home-3-line", link: "/" },
     { text: "日常", icon: "polaroid-line", link: "/daily/" },
     { text: "旅游", icon: "road-map-line", link: "/travel/" },
-    { text: "说说", icon: "message-2-line", link: "/space/" },
     { text: "杂项", icon: "file-copy-2-line", link: "/misc/" },
     { text: "知识", icon: "book-2-line", link: "https://docs.wozsun.com" },
     { text: "主站", icon: "gps-line", link: "https://www.wozsun.com" },
