@@ -7,7 +7,7 @@
     "MD033": {
         "allowed_elements": [
             "Badge",
-            "AudioPlayer",
+            "VidStack",
             "div",
             "img",
             "br"
